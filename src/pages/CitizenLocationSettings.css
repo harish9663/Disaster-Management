@@ -1,0 +1,278 @@
+
+.citizen-location-page {
+  padding: 25px;
+  color: #f9fafb;
+}
+
+.citizen-location-header {
+  margin-bottom: 25px;
+}
+
+.citizen-location-header > span {
+  color: #60a5fa;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.citizen-location-header h1 {
+  margin: 8px 0;
+  font-size: 28px;
+}
+
+.citizen-location-header p,
+.location-section-heading p {
+  color: #9ca3af;
+  font-size: 13px;
+}
+
+.location-settings-card {
+  padding: 22px;
+  margin-bottom: 18px;
+  border: 1px solid #293449;
+  border-radius: 11px;
+  background: #172033;
+}
+
+.location-section-heading {
+  margin-bottom: 20px;
+}
+
+.location-section-heading h2 {
+  margin: 0 0 7px;
+  font-size: 17px;
+}
+
+.location-section-heading p {
+  margin: 0;
+}
+
+.location-method-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  padding: 17px;
+  border: 1px solid #374151;
+  border-radius: 9px;
+  background: #1f2937;
+}
+
+.location-method-card h3 {
+  margin: 0 0 7px;
+  font-size: 14px;
+}
+
+.location-method-card p {
+  margin: 0;
+  color: #9ca3af;
+  font-size: 12px;
+}
+
+.location-method-card button,
+.location-search-row button {
+  padding: 11px 15px;
+  border: none;
+  border-radius: 7px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.location-method-card button:disabled,
+.location-search-row button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.location-or {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 22px 0;
+  color: #9ca3af;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.location-or::before,
+.location-or::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #374151;
+}
+
+.location-search-form label {
+  display: block;
+  margin-bottom: 9px;
+  color: #d1d5db;
+  font-size: 13px;
+}
+
+.location-search-row {
+  display: flex;
+  gap: 10px;
+}
+
+.location-search-row input {
+  flex: 1;
+  min-width: 0;
+  padding: 12px;
+  border: 1px solid #374151;
+  border-radius: 7px;
+  background: #111827;
+  color: white;
+  outline: none;
+}
+
+.location-search-row input:focus {
+  border-color: #3b82f6;
+}
+
+.location-search-results {
+  margin-top: 18px;
+}
+
+.location-search-results h3 {
+  font-size: 13px;
+}
+
+.location-result {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 13px;
+  margin-top: 7px;
+  border: 1px solid #374151;
+  border-radius: 7px;
+  background: #1f2937;
+  color: white;
+  text-align: left;
+  cursor: pointer;
+}
+
+.location-result:hover {
+  border-color: #3b82f6;
+  background: #263449;
+}
+
+.location-result > span:last-child {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.location-result strong {
+  font-size: 13px;
+}
+
+.location-result small {
+  color: #9ca3af;
+  font-size: 11px;
+}
+
+.location-radius-display {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 16px;
+  border-radius: 8px;
+  background: #1f2937;
+}
+
+.location-radius-display span {
+  color: #60a5fa;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.location-radius-display small {
+  color: #9ca3af;
+}
+
+.location-help-text {
+  color: #9ca3af;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.saved-location-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.saved-location-label {
+  color: #9ca3af;
+  font-size: 11px;
+}
+
+.saved-location-details h3 {
+  margin: 7px 0;
+  font-size: 16px;
+}
+
+.saved-location-details p {
+  margin: 5px 0;
+  color: #cbd5e1;
+  font-size: 12px;
+}
+
+.remove-location-button {
+  padding: 10px 13px;
+  border: 1px solid #7f1d1d;
+  border-radius: 7px;
+  background: #3b1d29;
+  color: #fca5a5;
+  cursor: pointer;
+}
+
+.location-message,
+.location-error,
+.location-privacy-note {
+  padding: 13px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.location-message {
+  background: #1e3a32;
+  color: #86efac;
+}
+
+.location-error {
+  background: #3b1d29;
+  color: #fca5a5;
+}
+
+.location-privacy-note {
+  border: 1px solid #374151;
+  background: #172033;
+  color: #cbd5e1;
+}
+
+@media (max-width: 600px) {
+  .citizen-location-page {
+    padding: 15px;
+  }
+
+  .location-method-card,
+  .saved-location-details {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .location-search-row {
+    flex-direction: column;
+  }
+
+  .location-search-row button {
+    width: 100%;
+  }
+}

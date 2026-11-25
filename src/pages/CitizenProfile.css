@@ -1,0 +1,281 @@
+
+.citizen-profile-page {
+  padding: 25px;
+  color: #f9fafb;
+}
+
+.citizen-profile-header {
+  margin-bottom: 24px;
+}
+
+.profile-eyebrow {
+  color: #60a5fa;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.citizen-profile-header h1 {
+  margin: 8px 0;
+  font-size: 28px;
+}
+
+.citizen-profile-header p {
+  color: #9ca3af;
+  font-size: 13px;
+}
+
+.profile-main-card {
+  padding: 23px;
+  margin-bottom: 18px;
+  border: 1px solid #293449;
+  border-radius: 11px;
+  background: #172033;
+}
+
+.profile-user-heading {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.profile-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #2563eb;
+  color: white;
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.profile-user-heading h2 {
+  margin: 0 0 5px;
+  font-size: 19px;
+}
+
+.profile-user-heading p {
+  margin: 0 0 7px;
+  color: #9ca3af;
+  font-size: 12px;
+}
+
+.profile-account-label {
+  color: #60a5fa;
+  font-size: 11px;
+}
+
+.profile-card-divider {
+  height: 1px;
+  margin: 23px 0;
+  background: #374151;
+}
+
+.profile-section-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.profile-section-title h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.profile-edit-button,
+.profile-save-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 7px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+.profile-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.profile-form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.profile-form-field label {
+  color: #cbd5e1;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.profile-form-field input,
+.profile-form-field textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #374151;
+  border-radius: 7px;
+  background: #111827;
+  color: white;
+  font-family: inherit;
+  font-size: 13px;
+  outline: none;
+}
+
+.profile-form-field input:focus,
+.profile-form-field textarea:focus {
+  border-color: #3b82f6;
+}
+
+.profile-form-field input:disabled,
+.profile-form-field textarea:disabled {
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+
+.profile-form-field textarea {
+  resize: vertical;
+}
+
+.profile-full-width {
+  grid-column: 1 / -1;
+}
+
+.profile-section-description {
+  margin: -8px 0 18px;
+  color: #9ca3af;
+  font-size: 12px;
+}
+
+.profile-form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.profile-form-actions button,
+.profile-danger-zone button {
+  padding: 10px 15px;
+  border: 1px solid #374151;
+  border-radius: 7px;
+  background: #1f2937;
+  color: white;
+  cursor: pointer;
+}
+
+.profile-form-actions .profile-save-button {
+  border: none;
+  background: #2563eb;
+}
+
+.profile-location-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.profile-location-card h3 {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.profile-location-card p {
+  margin: 5px 0;
+  color: #cbd5e1;
+  font-size: 13px;
+}
+
+.profile-location-card small {
+  color: #9ca3af;
+}
+
+.profile-location-card a {
+  color: #60a5fa;
+  font-size: 12px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.profile-location-card a:hover {
+  text-decoration: underline;
+}
+
+.profile-danger-zone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  padding: 18px;
+  margin-bottom: 16px;
+  border: 1px solid #713f46;
+  border-radius: 10px;
+  background: #281c29;
+}
+
+.profile-danger-zone h3 {
+  margin: 0 0 7px;
+  font-size: 14px;
+}
+
+.profile-danger-zone p {
+  margin: 0;
+  color: #d1b5bd;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.profile-danger-zone button {
+  flex-shrink: 0;
+  border-color: #7f1d1d;
+  background: #3b1d29;
+  color: #fca5a5;
+}
+
+.profile-message {
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 7px;
+  background: #1e3a32;
+  color: #86efac;
+  font-size: 12px;
+}
+
+.profile-privacy-note {
+  padding: 14px;
+  border: 1px solid #374151;
+  border-radius: 8px;
+  background: #172033;
+  color: #cbd5e1;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+@media (max-width: 650px) {
+  .citizen-profile-page {
+    padding: 15px;
+  }
+
+  .profile-form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-location-card,
+  .profile-danger-zone {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .profile-full-width {
+    grid-column: auto;
+  }
+}

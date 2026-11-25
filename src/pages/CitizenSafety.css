@@ -1,0 +1,289 @@
+
+.citizen-safety {
+  padding: 25px;
+  color: #e2e8f0;
+}
+
+.safety-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.safety-heading h1 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.safety-heading p,
+.safety-guide-card p,
+.safety-kit-section > div > p {
+  color: #94a3b8;
+}
+
+.safety-heading-icon {
+  font-size: 48px;
+}
+
+.safety-emergency-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  padding: 22px;
+  background: #7f1d1d;
+  border: 1px solid #ef4444;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.safety-emergency-banner p {
+  color: #fecaca;
+  margin-top: 7px;
+}
+
+.safety-emergency-banner a {
+  background: #dc2626;
+  color: white;
+  text-decoration: none;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.safety-section-title {
+  font-size: 21px;
+  margin-bottom: 18px;
+}
+
+.safety-guide-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.safety-guide-card {
+  text-align: left;
+  padding: 22px;
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.safety-guide-card:hover {
+  transform: translateY(-3px);
+  border-color: #60a5fa;
+}
+
+.safety-guide-icon {
+  display: block;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.safety-guide-card h3 {
+  font-size: 18px;
+  margin-bottom: 9px;
+}
+
+.safety-guide-card p {
+  font-size: 13px;
+  line-height: 1.6;
+  min-height: 42px;
+}
+
+.safety-read-more {
+  display: block;
+  margin-top: 17px;
+  color: #60a5fa;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.safety-guide-details,
+.safety-kit-section,
+.safety-first-aid,
+.safety-disclaimer {
+  margin-top: 30px;
+  padding: 22px;
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+}
+
+.safety-detail-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.safety-detail-heading p {
+  color: #94a3b8;
+  margin-top: 7px;
+}
+
+.safety-close-btn {
+  height: 35px;
+  width: 35px;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  background: #334155;
+  cursor: pointer;
+}
+
+.safety-tabs {
+  display: flex;
+  gap: 10px;
+  margin: 22px 0;
+}
+
+.safety-tabs button {
+  background: #334155;
+  border: none;
+  color: #cbd5e1;
+  padding: 10px 20px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.safety-tabs button.active {
+  background: #2563eb;
+  color: white;
+}
+
+.safety-instructions {
+  list-style: none;
+  padding: 0;
+}
+
+.safety-instructions li {
+  display: flex;
+  gap: 12px;
+  padding: 13px 0;
+  border-bottom: 1px solid #334155;
+  line-height: 1.6;
+}
+
+.safety-instructions li span {
+  color: #4ade80;
+  font-weight: bold;
+}
+
+.safety-progress {
+  color: #60a5fa;
+  margin: 18px 0 10px;
+  font-size: 13px;
+}
+
+.safety-progress-track {
+  height: 8px;
+  background: #334155;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.safety-progress-track div {
+  height: 100%;
+  background: #22c55e;
+  transition: width 0.2s;
+}
+
+.safety-checklist {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  margin-top: 22px;
+}
+
+.safety-check-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #cbd5e1;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.safety-check-item input {
+  width: 17px;
+  height: 17px;
+  accent-color: #22c55e;
+}
+
+.safety-reset-btn {
+  margin-top: 22px;
+  padding: 10px 17px;
+  background: #334155;
+  border: none;
+  color: white;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.first-aid-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-top: 18px;
+}
+
+.first-aid-grid > div {
+  padding: 17px;
+  background: #0f172a;
+  border-radius: 9px;
+}
+
+.first-aid-grid h3 {
+  margin-bottom: 9px;
+  color: #93c5fd;
+}
+
+.first-aid-grid p,
+.safety-disclaimer p {
+  color: #cbd5e1;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.safety-disclaimer {
+  border-color: #92400e;
+  background: #422006;
+}
+
+.safety-disclaimer h3 {
+  color: #fbbf24;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 900px) {
+  .safety-guide-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .citizen-safety {
+    padding: 15px;
+  }
+
+  .safety-guide-grid,
+  .safety-checklist,
+  .first-aid-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .safety-emergency-banner {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .safety-tabs {
+    flex-wrap: wrap;
+  }
+}
